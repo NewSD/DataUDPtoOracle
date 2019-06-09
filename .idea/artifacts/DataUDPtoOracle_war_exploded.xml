@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DataUDPtoOracle:war exploded">
+    <output-path>$PROJECT_DIR$/target/DataUDPtoOracle</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DataUDPtoOracle" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/DataUDPtoOracle/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="DataUDPtoOracle/web/Web" />
+    </root>
+  </artifact>
+</component>
